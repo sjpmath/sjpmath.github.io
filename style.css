@@ -1,0 +1,251 @@
+  body *{
+    font-family: Helvetica;
+  }
+  
+  h1, h2, h3, h4, h5{
+      font-weight: normal;
+      margin: 0;
+      text-transform: capitalize;
+  }
+
+  div.wrapper img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  
+  .wrapper{
+    max-width : 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  div.wrapper h2{
+    margin: 10px auto;
+    font-size: 2.4em;
+  }
+  div.wrapper h1{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 2.4em;
+  }
+  div.wrapper p{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.2em;
+  }
+
+  div.wrapper a:link {
+    color: royalblue;
+    text-decoration: none;
+  }
+  div.wrapper a:visited {
+    color: royalblue;
+    text-decoration: none;
+  }
+
+  div.bodystuff a:link {
+    color: royalblue;
+    text-decoration: none;
+  }
+  div.bodystuff a:visited {
+    color: royalblue;
+    text-decoration: none;
+  }
+
+
+
+
+  .bodystuff{
+    max-width : 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  div.bodystuff h2{
+    margin: 10px auto;
+    font-size: 2.0em;
+  }
+
+  div.bodystuff p{
+    margin: 10px auto;
+    margin-bottom: 50px;
+  }
+  
+  
+  nav{
+    justify-self: end;
+  }
+  
+  nav li{
+    display: inline-block;
+    margin-left: 20px
+  }
+  
+  nav button{
+    background: none;
+    color: black;
+    cursor: pointer;
+    border: 0;
+    font-size: 1em
+  
+  }
+  
+  
+  .site-form{
+    margin-top: 60px;
+    border: 1px solid #00dba0;
+    padding: 20px
+  }
+  
+  
+  .site-form input, .site-form textarea{
+    display: block;
+    margin: 20px 0 0 0;
+    padding: 10px;
+  }
+  
+  a.highlight{
+    border: 1px solid #00dba0;
+    padding: 10px;
+    border-radius: 4px;
+    color: #00dba0;
+  }
+  
+  .helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color: #bbb;
+    font-size: 0.9em;
+    display: block;
+  }
+  
+  .errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    margin: 10px 0;
+  }
+  
+  .errorlist{
+    padding: 0;
+  }
+  
+  .site-form input[type="submit"]{
+    margin: 0px;
+    padding: 0;
+    position: relative;
+  }
+  .logout-link button.logout{
+    padding:0;
+    position:relative;
+    margin-top: 7px;
+  }
+  
+  
+  a:link {
+    color: #000;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .solved_circle {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: green;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .unsolved_circle {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .topic_name{
+    text-transform: capitalize;
+  }
+  
+  
+  
+  td.solved_question{
+    color: green;
+  }
+  td.unsolved_question{
+    color:red
+  }
+  
+  .correct {
+    padding: 10px;
+    border: 1px solid green;
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .incorrect {
+    padding: 10px;
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  .correct_text{
+    color: green;
+  }
+  .incorrect_text{
+    color: red;
+  }
+  
+  .form-inline{
+    max-width: 200px;
+  }
+  
+  .navbar-text{
+    text-align: right;
+  }
+  
+  .table{
+    max-width: 700px;
+    float:left;
+  }
+  .topics-menu{
+    margin-left:10px;
+  
+    float:right;
+    position:sticky;
+    top:20px;
+  }
+  .list-group-item{
+    text-transform: capitalize;
+  }
+  .chosen-topic{
+    color: red;
+  }
+  .progress{
+    max-width: 900px;
+  }
+  
+  .pagination{
+    width: 100%;
+  }
+  
+  .search_results{
+    width:100%;
+  }
+  
+  .solution-link{
+    color: blue;
+  }
