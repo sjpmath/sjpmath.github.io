@@ -151,3 +151,10 @@ footer {
         padding: 1.5rem;
     }
 }
+
+.circle-icon {
+  width: 32px;            /* Set desired icon width */
+  height: 32px;           /* Match height for 1:1 square ratio */
+  object-fit: cover;      /* Prevents image distortion */
+  border-radius: 50%;     /* Cuts out corners into a circle */
+}
